@@ -2,9 +2,12 @@
     margin: 100;
 }
 .logo {
-    height: 50px;
-    width: 50px;
-    background-color:white;
+    height: 100px;
+    width: 80px;
+}
+
+.logo:hover{
+    transform: scale(1.1);
 }
 
 .text-style {
@@ -13,11 +16,35 @@
     font-family: cursive;
     font-size: large;
 }   
-
+.text-style:hover {
+    transform: scale(1.1);
+}
 .resume {
     border: yellow;
 }
 
 a:hover {
     color: yellow;
-  }
+}
+
+.intro-start{
+    color: #01E0F3;
+    font-family: cursive;
+    font-size: 120%
+}
+
+.intro-name{
+    color: #CCD6F6;
+    font-family:  'Calibri';
+    font-size: 400%
+}
+.intro-do  {
+    color: #8892B0;
+    font-family: 'Calibri';
+    font-size: 400%
+}
+
+.intro-detail{
+    color: #8892B0;
+    font-family: cursive;
+}
