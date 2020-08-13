@@ -1,13 +1,13 @@
-import React from 'react';
-
+import React from "react";
+import "./component.css";
+import Navbar from "./NavBar";
 
 export default class MainPage extends React.Component {
-render() {
+  render() {
     return(
-        <div className = "MainPage">
-            This is the main page.
-    </div>
-    )
-}
-
+      <div className = "container-fluid">
+        <Navbar/>
+      </div>
+    );
+  }
 }

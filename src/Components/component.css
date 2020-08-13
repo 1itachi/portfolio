@@ -1,0 +1,23 @@
+.MainPage {
+    margin: 100;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    background-color:white;
+}
+
+.text-style {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+}   
+
+.resume {
+    border: yellow;
+}
+
+a:hover {
+    color: yellow;
+  }
