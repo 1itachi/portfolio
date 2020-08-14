@@ -12,9 +12,9 @@ export default class MainPage extends React.Component {
   render() {
     return(
       <div>
-      <div className = "container-fluid">
-        <Navbar/>
-      </div>
+      <nav className="navbar sticky-top navbar-expand-lg">
+      <Navbar/>
+      </nav>
       <div className = "container">
        <Intro/>
        <About/>
@@ -22,8 +22,8 @@ export default class MainPage extends React.Component {
        <Work/>
        <Contact/>
        <Footer/>
-      </div>
-      </div>
+      </div></div>
+    
     );
   }
 }

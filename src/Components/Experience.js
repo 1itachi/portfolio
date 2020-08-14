@@ -30,8 +30,6 @@ export default class Experience extends React.Component {
   render() {
   
     let companyDetails;
-    let photo;
-    let link;
 
         if(this.state.slalom){
           companyDetails= <div className= "panel-body mt-4 para-style">
@@ -68,7 +66,7 @@ export default class Experience extends React.Component {
 
 
     return(
-        <div className="row margin">
+        <div className="row margin" id="experience-id">
         <div className="col-sm-6">
         <h3 className="headings head ml-2">2. Where I've Worked</h3> 
         <hr className="horizontal"/>

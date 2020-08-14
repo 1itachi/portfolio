@@ -6,9 +6,9 @@ import photo from '../photo.jpg';
 export default class About extends React.Component {
   render() {
     return(
-        <div className="row margin">
-      <div className="col-sm-6">
-        <h3 className="headings head ml-2">1. About Me</h3> 
+        <div className="row margin" id="about-id">
+        <div className="col-sm-6">
+        <h3 className="headings head ml-2" >1. About Me</h3> 
         <hr className="horizontal"/>
         <div>
         <p className="para-style">Shortly after my Bachelors from Malnad College of Engineering (VTU),
