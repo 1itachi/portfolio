@@ -71,7 +71,8 @@ a:hover {
 
 .margin {
     margin-top: 200px;
-    overflow: hidden
+    overflow: hidden;
+    padding-top: 150px;
 }
 
 .horizontal {

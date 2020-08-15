@@ -10,7 +10,7 @@ export default class Work extends React.Component {
         return(
             <div className="margin" id="work-id">
                 <div className="col-sm-6">
-              <h3 className="headings head ml-2">3. My Work and Certifications</h3> 
+              <h3 className="headings head ml-4">3. My Work and Certifications</h3> 
               <hr className="horizontal"/>
               </div>
 

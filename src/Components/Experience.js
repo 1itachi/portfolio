@@ -34,10 +34,10 @@ export default class Experience extends React.Component {
         if(this.state.slalom){
           companyDetails= <div className= "panel-body mt-4 para-style">
             <h1 class="intro-start">
-            <span className="para-style"> Software Engineer Intern </span>
+            <span className="para-style ml-2"> Software Engineer Intern </span>
             <span>@Slalom Build</span>
             </h1>
-            <p className="para-style">June, 2020 - August, 2020</p>
+            <p className="para-style ml-2">June, 2020 - August, 2020</p>
             <ul>
             <li>Led Cloud, DevOps, and Security effort in the team. Built BitBucket pipelines, provisioned AWS infrastructure, and integrated AppCenter.</li>
             <li>Developed mobile application using React Native, TypeScript.</li>
@@ -49,10 +49,10 @@ export default class Experience extends React.Component {
         } else{
           companyDetails= <div className= "mt-4 para-style"> 
           <h1 class="intro-start">
-            <span className="para-style">Software Engineer </span>
+            <span className="para-style ml-2">Software Engineer </span>
             <span>@Brillio</span>
             </h1>
-            <p className="para-style">August, 2016 - August, 2019</p>
+            <p className="para-style ml-2">August, 2016 - August, 2019</p>
           <ul>
             <li>Built a mechanism to send notifications on change of an attribute of a property listing, which helped stakeholders to make more informed decisions on a property,
                resulting in a 15% increase in returning customer base. </li>
@@ -68,7 +68,7 @@ export default class Experience extends React.Component {
     return(
         <div className="row margin" id="experience-id">
         <div className="col-sm-6">
-        <h3 className="headings head ml-2">2. Where I've Worked</h3> 
+        <h3 className="headings head ml-4">2. Where I've Worked</h3> 
         <hr className="horizontal"/>
         <button className="button-style border border-info active p-2 mr-2" onClick={this.slalomActive}>Slalom Build</button>
         <button className="button-style border border-info p-2 mr-2" onClick={this.brillioActive}>Brillio</button>
