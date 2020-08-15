@@ -1,13 +1,14 @@
 import React from "react";
 import "./component.css";
 import photo from '../photo.jpg';
-
+import Fade from 'react-reveal/Fade';
 
 export default class About extends React.Component {
   render() {
     return(
         <section className="margin" id="about-id">
-        <div className="row " >
+        <div className="row">
+        <Fade left>
         <div className="col-sm-6">
         <h3 className="headings head ml-4" >1. About Me</h3> 
         <hr className="horizontal"/>
@@ -50,12 +51,14 @@ export default class About extends React.Component {
             </div>
 
         </div>
-      
+        </Fade>
+        <Fade right>
         <div className="col-sm-6 center image-style">
         <a href = "https://www.linkedin.com/in/deepak-kumar-bb1810115/">
         <img className="photo" src={photo} alt="Avatar"></img>
         </a>
         </div>
+        </Fade>
       </div>
       </section>
     );
