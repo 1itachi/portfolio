@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 export default class About extends React.Component {
   render() {
     return(
-        <section className="margin" id="about-id">
+        <section className="margin" id="about-id"> 
         <div className="row">
         <Fade left>
         <div className="col-sm-6">
@@ -48,7 +48,7 @@ export default class About extends React.Component {
                 </div>
             </p>
             </div>
-            </div>
+          </div>
 
         </div>
         </Fade>

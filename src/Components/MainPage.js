@@ -32,9 +32,7 @@ export default class MainPage extends React.Component {
        <Footer/>
        </Fade>
       </div>
-
       </div>
-    
     );
   }
 }
