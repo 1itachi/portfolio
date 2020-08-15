@@ -18,7 +18,7 @@ html {
 .text-style {
     color: white;
     text-align: center;
-    font-family: cursive;
+    font-family: Verdana;
     font-size: medium;
     transition: all .2s ease-in-out;
 }   
@@ -37,7 +37,7 @@ a:hover {
 
 .intro-start{
     color: #01E0F3;
-    font-family: cursive;
+    font-family: Verdana;
     font-size: 120%
 }
 
@@ -54,7 +54,7 @@ a:hover {
 
 .intro-detail{
     color: #8892B0;
-    font-family: cursive;
+    font-family:Verdana;
 }
 
 .test:hover{
@@ -82,7 +82,7 @@ a:hover {
 }
 
 .para-style{
-    font-family: cursive;
+    font-family: Verdana;
     /* font-size: 18px; */
     color: #8892B0
 }
@@ -130,7 +130,7 @@ a:hover {
 .button-style{
     border: 1px solid #8892B0;
     color: white;
-    font-family: cursive;
+    font-family: Verdana;
     background-color:  #0A081D;
 }
 
@@ -201,6 +201,6 @@ a:hover {
 .footer {
     color: #8892B0;
     font-size: 12px;
-    font-family: cursive;
+    font-family: Verdana;
 }
 
