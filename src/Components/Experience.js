@@ -40,10 +40,11 @@ export default class Experience extends React.Component {
             <p className="para-style ml-2">June, 2020 - August, 2020</p>
             <ul>
             <li>Led Cloud, DevOps, and Security effort in the team. Built BitBucket pipelines, provisioned AWS infrastructure, and integrated AppCenter.</li>
-            <li>Developed mobile application using React Native, TypeScript.</li>
-            <li>Developed backend API's using Lambda and DynamoDB.</li>
-            <li>Used Cognito for Authentication and secured all backend API's with Cognito Authorization.</li>
-            <li>Participated in Backlog refinement, Sprint planning, and retrospective.</li>  
+            <li>Developed Stagen Leadership mobile application using React Native, TypeScript.</li>
+            <li>Developed backend API's using Serverless Architecture with AWS resources such as API Gateway, Lambda and DynamoDB.</li>
+            <li>Deployed Cognito User Pool (connected with Azure AD) for Authentication and secured all backend API's with Cognito Authorization.</li>
+            <li>Participated in Backlog refinement, Sprint planning, and retrospective.</li>
+            <li>The app will increase the ease of learning and customer involvement.</li>
             </ul>
             </div>;
         } else{
