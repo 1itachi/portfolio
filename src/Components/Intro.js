@@ -1,5 +1,6 @@
 import React from "react";
 import "./component.css";
+import Typist from "react-typist";
 
 export default class Intro extends React.Component {
     render() {
@@ -8,7 +9,7 @@ export default class Intro extends React.Component {
                 <div className="col-sm-6 mt-3 p-0 mb-4 intro-detail">
                 <h1 className="intro-start">Hi, my name is</h1>
                 <h2 className="intro-name">Deepak Kumar.</h2>
-                <h3 className="intro-do">Full Stack Developer.</h3>
+                <Typist className="intro-do"> <Typist.Delay ms={800}/>Full Stack Developer.</Typist>
                 <p1>I am a Master of Science in Computer Science (MSCS) candidate at Northeastern University, Boston. I enjoy building reactive applications.
                     I am also a cloud person, AWS Developer & Solution Architect Associate certified.
                 </p1>
