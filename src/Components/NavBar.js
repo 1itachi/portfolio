@@ -2,14 +2,14 @@ import React from "react";
 import "./component.css";
 import logo from "../logo.png";
 import pdf from "../resume.pdf";
-import Spin from "react-reveal/Spin";
+
 
 export default class NavBar extends React.Component {
     render() {
         return(
               <div className="container-fluid row">
                 <div className="col-sm-6">
-              <img className= "logo" src ={logo} alt="logo" />
+              <a href="#logo" ><img className= "logo" id="logo" src ={logo} alt="logo" /></a>
               </div>
                 <div className="col-sm-6">
                     <ol className="navbar-nav ">
