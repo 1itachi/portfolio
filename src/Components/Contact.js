@@ -12,7 +12,7 @@ export default class Contact extends React.Component {
                 <p className="para-style mb-4"> I am currently looking for Spring 2021 Internship/Coop 
                 or Fulltime starting May 2021. My inbox is always open, even for just a 'Hi'.</p>
                 
-                <div className="test mt-5 mb-5 p-0 contact">
+                <div className="mt-5 mb-5 p-0 contact">
                 <a href = "mailto:kumar.de@northeastern.edu" className ="text-style border border-info center p-2 mb-2">Say Hello</a>
                 </div>
 
