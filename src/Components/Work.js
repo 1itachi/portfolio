@@ -30,7 +30,7 @@ export default class Work extends React.Component {
         
                 
                 <div class="card col-sm-6 card-background" >
-                <a href="https://frontend-bookbar.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img class="card-img-top card-image-book" src={bookbar} alt="Card cap"/></a>
+                <a href="https://bookbar.netlify.app/" target="_blank" rel="noopener noreferrer"><img class="card-img-top card-image-book" src={bookbar} alt="Card cap"/></a>
                 <div class="card-body">
                 <h5 class="intro-start card-title ">BookBar Web App</h5>
                 <p class="para-style card-text mb-4">Collaborated on building a FullStack application. A user can register and login as either a buyer or a seller. A buyer can place an order on the books currently being sold by a seller.
