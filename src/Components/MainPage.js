@@ -8,27 +8,44 @@ import Work from "./Work";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Fade from 'react-reveal/Fade';
-import Slide from 'react-reveal/Slide';
+// import Slide from 'react-reveal/Slide';
+// import Reveal from 'react-reveal/Reveal';
+
 
 
 export default class MainPage extends React.Component {
   render() {
     return(
       <div>
-        <Fade top>
-      <nav className="navbar sticky-top nav-style navbar-expand-lg">   
-        <Navbar/>
-      </nav>
+
+      <Fade bottom>  
+          <nav className="navbar sticky-top nav-style navbar-expand-lg">   
+          <Navbar/>
+          </nav>
       </Fade>
+
       <div className = "container">
-        <Slide top>
+      <Fade bottom>  
        <Intro/>
-       </Slide>
+       </Fade>
+   
+       <Fade bottom> 
        <About/>
+       </Fade>
+
+       <Fade bottom> 
        <Experience/>
-       <Fade left>
+       </Fade>
+
+       <Fade bottom>
        <Work/>
+       </Fade>
+
+       <Fade bottom>
        <Contact/>
+       </Fade>
+
+       <Fade bottom>
        <Footer/>
        </Fade>
       </div>

@@ -1,11 +1,13 @@
 import React from "react";
 import "./component.css";
 import Typist from "react-typist";
+import Reveal from 'react-reveal/Reveal';
 
 export default class Intro extends React.Component {
     render() {
         return(
-            <div className="row mt-5">
+            <div className="row mt-5 animated animatedFadeInUp fadeInUp">
+                {/* <Reveal effect="fadeInUp"> */}
                 <div className="col-sm-6 mt-3 p-0 mb-4 intro-detail">
                 <h1 className="intro-start">Hi, my name is</h1>
                 <h2 className="intro-name">Deepak Kumar.</h2>
@@ -21,6 +23,7 @@ export default class Intro extends React.Component {
                 <div className="col-sm-6 mt-5">
                 <figure><embed src="https://wakatime.com/share/@itachi1994/6eff178a-28b9-48bc-a510-35a596f7ac22.svg"></embed></figure>
                 </div>
+                {/* </Reveal> */}
             </div>
         );
     }

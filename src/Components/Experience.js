@@ -40,7 +40,7 @@ export default class Experience extends React.Component {
             <span>@Slalom Build</span>
             </h1>
             <p className="para-style ml-2">June, 2020 - August, 2020</p>
-            <LightSpeed left>
+ 
             <ul>
             <li>Led Cloud, DevOps, and Security effort in the team. Built BitBucket pipelines, provisioned AWS infrastructure, and integrated AppCenter.</li>
             <li>Developed Stagen Leadership mobile application using React Native, TypeScript.</li>
@@ -49,7 +49,7 @@ export default class Experience extends React.Component {
             <li>Participated in Backlog refinement, Sprint planning, and retrospective.</li>
             <li>The app will increase the ease of learning and customer involvement.</li>
             </ul>
-            </LightSpeed>
+
             </div>;
         } else{
           companyDetails= <div className= "mt-4 para-style"> 
@@ -59,7 +59,7 @@ export default class Experience extends React.Component {
             <span>@Brillio</span>
             </h1>
             <p className="para-style ml-2">August, 2016 - August, 2019</p>
-            <LightSpeed left>
+
           <ul>
             <li>Built a mechanism to send notifications on change of an attribute of a property listing, which helped stakeholders to make more informed decisions on a property,
                resulting in a 15% increase in returning customer base. </li>
@@ -68,7 +68,7 @@ export default class Experience extends React.Component {
             <li>Implemented application by migrating Python server-based code to serverless code using Nodejs and AWS, which increased the response time of application by 20%.</li>
             <li>Oversaw all aspects of backend development, redesigned multiple web pages, and guided new hires.</li>
             </ul>
-            </LightSpeed>
+
           </div>;
         }
 

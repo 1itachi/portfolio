@@ -73,15 +73,13 @@ a:hover {
 }
 
 .margin {
-    margin-top: 60px;
+    margin-top: 30vh;
     overflow: hidden;
     padding-top: 150px;
 }
 
 .horizontal {
     border: 1px solid #8892B0;
-    /* display:inline-block; */
-    /* float: right, */
 }
 
 .para-style{
@@ -199,12 +197,17 @@ a:hover {
 .contact{
     align-items: center;
     text-align: center;
+
 }
 
 .footer {
     color: #8892B0;
     font-size: 12px;
     font-family: Verdana;
+}
+
+.footer-margin {
+    margin-top: 20vh;
 }
 
 
@@ -217,3 +220,53 @@ a:hover {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
+
+  body {
+    padding: 40px;
+}
+
+
+body {
+    padding: 40px;
+}
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}

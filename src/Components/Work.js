@@ -4,39 +4,51 @@ import baboon from "../mosaicBaboon.jpg";
 import bookbar from "../bookbar.png";
 import developer from "../developer.png";
 import solution from "../solution.png";
+import plagewatch from "../plagewatch.png";
 
 
 export default class Work extends React.Component {
     render() {
         return(
             <div className="margin" id="work-id">
+
                 <div className="col-sm-6">
               <h3 className="headings head ml-4">3. My Work and Certifications</h3> 
               <hr className="horizontal"/>
               </div>
 
             <div className="row">
-   
+
               <div class="card col-sm-6 card-background" >
                 <img class="card-img-top card-image" src={baboon} alt="Card cap"/>
                 <div class="card-body">
-                <h5 class="intro-start card-title">Image Processing</h5>
+                <h5 class="intro-start card-title">Image Processing  <a class="github" href="http://github.com/itachi1994/ImageProcessingApplication/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github "></i></a></h5> 
                 <p class="para-style card-text">Built an Image processing application to apply six filters on an image such as greyscale, sepia, mosaic, dithering, blur, and sharpen.
                 Made use of MVC architecture, SOLID principles, and design patterns.</p>
                 <p className="para-style">Note: This repo is private, drop a request to make it public.</p>
-                <a class="github" href="http://github.com/itachi1994/ImageProcessingApplication/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-2x float-right"></i></a>
+              
                 </div>
                 </div>
+
+                <div class="card col-sm-6 card-background" >
+                <a href="https://plagewatch.netlify.app/home" target="_blank" rel="noopener noreferrer"><img class="card-img-top card-image-book" src={plagewatch} alt="Card cap"/></a>
+                <div class="card-body">
+                <h5 class="intro-start card-title ">PlageWatch  <a class="github" href="https://github.com/itachi1994/plageWatch" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></h5>
+                <p class="para-style card-text mb-4">Built a web app to detect plagiarism on Javascript files. Supports single file and multiple files in zip format.</p>
+                <p className="para-style">Note: This repo is private, drop a request to make it public.</p>
+              
+                </div>
+                 </div>
         
                 
                 <div class="card col-sm-6 card-background" >
-                <a href="https://bookbar.netlify.app/" target="_blank" rel="noopener noreferrer"><img class="card-img-top card-image-book" src={bookbar} alt="Card cap"/></a>
+                <a href="https://frontend-bookbar.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img class="card-img-top card-image-book" src={bookbar} alt="Card cap"/></a>
                 <div class="card-body">
-                <h5 class="intro-start card-title ">BookBar Web App</h5>
+                <h5 class="intro-start card-title ">BookBar Web App <a class="github" href="https://github.com/itachi1994/BookBar-frontend" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></h5>
                 <p class="para-style card-text mb-4">Collaborated on building a FullStack application. A user can register and login as either a buyer or a seller. A buyer can place an order on the books currently being sold by a seller.
                  A seller can sell multiple books, and customize the price and quantity of the books he wants to sell.</p>
                  <p></p>
-                <a class="github" href="https://github.com/itachi1994/BookBar-frontend" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-2x float-right"></i></a>
+                
                 </div>
                  </div>
             
@@ -61,6 +73,7 @@ export default class Work extends React.Component {
                 </div>
         
               </div>
+
             </div>
         );
     }
