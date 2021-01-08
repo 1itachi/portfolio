@@ -1,7 +1,6 @@
 import React from "react";
 import "./component.css";
 import Typist from "react-typist";
-import Reveal from 'react-reveal/Reveal';
 
 export default class Intro extends React.Component {
     render() {

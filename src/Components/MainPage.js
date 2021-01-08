@@ -17,12 +17,8 @@ export default class MainPage extends React.Component {
   render() {
     return(
       <div>
-
-      <Fade bottom>  
-          <nav className="navbar sticky-top nav-style navbar-expand-lg">   
+            
           <Navbar/>
-          </nav>
-      </Fade>
 
       <div className = "container">
       <Fade bottom>  

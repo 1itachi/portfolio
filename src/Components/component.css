@@ -29,9 +29,7 @@ html {
 .text-style:hover {
     transform: scale(1.1);
 }
-.resume {
-    border: yellow;
-}
+
 
 a:hover {
     color: yellow;
