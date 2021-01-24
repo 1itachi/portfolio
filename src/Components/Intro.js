@@ -5,7 +5,7 @@ import Typist from "react-typist";
 export default class Intro extends React.Component {
     render() {
         return(
-            <div className="row mt-5 animated animatedFadeInUp fadeInUp">
+            <div className="row mt-5 animated animatedFadeInUp fadeInUp" id="first">
                 {/* <Reveal effect="fadeInUp"> */}
                 <div className="col-sm-6 mt-3 p-0 mb-4 intro-detail">
                 <h1 className="intro-start">Hi, my name is</h1>

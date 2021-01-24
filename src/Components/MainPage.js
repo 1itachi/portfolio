@@ -16,11 +16,11 @@ import Fade from 'react-reveal/Fade';
 export default class MainPage extends React.Component {
   render() {
     return(
-      <div>
+      <div id="home">
             
           <Navbar/>
 
-      <div className = "container">
+      <div className = "container" >
       <Fade bottom>  
        <Intro/>
        </Fade>
