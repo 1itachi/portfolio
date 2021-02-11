@@ -13,17 +13,18 @@ export default class About extends React.Component {
         <hr className="horizontal"/>
         <div>
         <p className="para-style">Shortly after my Bachelors from Malnad College of Engineering (VTU),
-        I joined <a className="anchor-style" href="https://www.brillio.com/">Brillio</a> as an Engineer, where I worked on multiple projects and POCs. 
+        I joined <a className="anchor-style" href="https://www.brillio.com/" target="_blank">Brillio</a> as an Engineer, where I worked on multiple projects and POCs. 
         I started with SAP ABAP, to build ERP solutions. Slowly, I switched to modern technologies like Node.Js and AWS.
         At the time of leaving the company, I held the position as a Senior Engineer.</p>
         </div>
         <div>
         <p className="para-style">
         After getting some experience in the industry,
-        I joined <a className="anchor-style" href="https://www.khoury.northeastern.edu/">Northeastern University</a> to pursue my Master of Science in Computer Science. 
-        As part of my summer internship, I joined <a className="anchor-style" href="https://www.slalombuild.com/">Slalom Build</a> as a Software Engineer Intern, 
+        I joined <a className="anchor-style" href="https://www.khoury.northeastern.edu/" target="_blank">Northeastern University</a> to pursue my Master of Science in Computer Science. 
+        As part of my summer internship, I joined <a className="anchor-style" href="https://www.slalombuild.com/" target="_blank">Slalom Build</a> as a Software Engineer Intern, 
         where I worked with a team of interns to build a mobile application using AWS, Bit Bucket pipelines,
         App Center, Node.js, TypeScript and React Native.</p>
+        <p className="para-style">Currently, working as a Software Engineer Co-op at <a className="anchor-style" href="https://www.usa.philips.com/healthcare/" target="_blank">Philips</a>.</p>
         </div>
         <div>
             <div>
