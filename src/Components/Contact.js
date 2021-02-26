@@ -10,7 +10,7 @@ export default class Contact extends React.Component {
                 <h2 className="intro-name">Get In Touch</h2>
 
                 <p className="para-style mb-4"> I am looking for 
-                fulltime starting Jan 2022. My inbox is always open, even for just a 'Hi'.</p>
+                fulltime starting Jan 2022. Looking forward to connecting with you! <p>&#128512;</p></p>
                 
                 <div className="mt-5 mb-5 p-0 contact">
                 <a href = "mailto:kumar.de@northeastern.edu" className ="text-style border border-info center p-2 mb-2">Say Hello</a>
