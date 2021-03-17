@@ -11,9 +11,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+      - name: Install dependencies
+        run: npm install
+      - name: file structure
+        run: tree
       - uses: jsmrcaga/action-netlify-deploy@v1.1.0
         with:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH }}
           NETLIFY_SITE_ID: 16382a7f-99d3-4da5-8786-90709568fd63
-          NETLIFY_DEPLOY_TO_PROD: true
