@@ -93,6 +93,7 @@ export default class Experience extends React.Component {
           <ul>
           <li>Developed GitHub actions to improve workflows.</li>
           <li>Worked on Roslyn Analyzers to provide real-time feedback to developers.</li>
+          <li>Developed Terraform script to automate the creation GitHub self-hosted runners.</li>
           {/* <li>Developed backend API's using Serverless Architecture with AWS resources such as API Gateway, Lambda and DynamoDB.</li>
           <li>Deployed Cognito User Pool (connected with Azure AD) for Authentication and secured all backend API's with Cognito Authorization.</li>
           <li>Participated in Backlog refinement, Sprint planning, and retrospective.</li>
