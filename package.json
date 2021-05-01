@@ -22,7 +22,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write src/*.js src/Components/*.js"
-
   },
   "eslintConfig": {
     "extends": "react-app"
