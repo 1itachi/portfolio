@@ -5,7 +5,7 @@ on:
     branches: [master]
 
 jobs:
-  Release & deploy:
+  Release-deploy:
     name: "Deploy to Netlify"
     runs-on: ubuntu-latest
     steps:
