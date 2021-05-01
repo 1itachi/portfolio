@@ -4,5 +4,5 @@
 
 
 ### Run locally using "npm start".
-## Contributions are welcomed. Please raise a PR with clear explanation of the contibution.
+## Contributions are welcomed. Please raise a PR with clear explanation of the contribution.
 
