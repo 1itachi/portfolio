@@ -122,19 +122,20 @@ export default class Experience extends React.Component {
           <p className="para-style ml-2">January, 2021 - Present</p>
 
           <ul>
-            <li>Developed GitHub actions to improve workflows.</li>
-            <li>
-              Worked on Roslyn Analyzers to provide real-time feedback to
-              developers.
-            </li>
-            <li>
-              Developed Terraform script to automate the creation GitHub
-              self-hosted runners.
-            </li>
-            {/* <li>Developed backend API's using Serverless Architecture with AWS resources such as API Gateway, Lambda and DynamoDB.</li>
-          <li>Deployed Cognito User Pool (connected with Azure AD) for Authentication and secured all backend API's with Cognito Authorization.</li>
-          <li>Participated in Backlog refinement, Sprint planning, and retrospective.</li>
-          <li>The app will increase the ease of learning and customer involvement.</li> */}
+          
+        <li> Contributed to Philips open-source Roslyn Analyzers to give developers real-time feedback on the code. </li>
+        <li>
+         Built a functionality to collect 5 code metrics from across the repositories for each check-in, it helped to identify repositories with the lowest scores.
+        </li>
+        <li>
+        Improved an ASP.NET application to display code coverage and mutation scores across the repositories on high charts. Built automated deployment pipeline using Nginx and Docker.
+        </li>
+        <li>
+        Automated self-hosted build runners (Nutanix VM's) creation using terraform, saving nearly 3hrs of time for each VM creation and configuration.
+        </li>
+        <li>
+         Developed Auto-Sync functionality to sync the files in 80+ GitHub repositories saving a significant amount of manual time.
+        </li>
           </ul>
         </div>
       )
