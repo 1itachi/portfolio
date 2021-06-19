@@ -11,7 +11,7 @@ export default class Contact extends React.Component {
         </p>
         <a
           class="github "
-          href="https://github.com/itachi1994/portfolio"
+          href="https://github.com/1itachi/portfolio"
           target="_blank"
           rel="noopener noreferrer"
         >
