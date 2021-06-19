@@ -23,7 +23,7 @@ export default class Work extends React.Component {
                 Image Processing{' '}
                 <a
                   class="github"
-                  href="http://github.com/itachi1994/ImageProcessingApplication/"
+                  href="http://github.com/1itachi/ImageProcessingApplication/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -59,7 +59,7 @@ export default class Work extends React.Component {
                 PlageWatch{' '}
                 <a
                   class="github"
-                  href="https://github.com/itachi1994/plageWatch"
+                  href="https://github.com/1itachi/plageWatch"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -93,7 +93,7 @@ export default class Work extends React.Component {
                 BookBar Web App{' '}
                 <a
                   class="github"
-                  href="https://github.com/itachi1994/BookBar-frontend"
+                  href="https://github.com/1itachi/BookBar-frontend"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
