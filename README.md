@@ -7,5 +7,3 @@
 </a>
 
 ### Run locally using "npm start".
-## Contributions are welcome. Please raise a PR with clear explanation of the contribution.
-
