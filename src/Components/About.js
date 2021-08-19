@@ -52,7 +52,7 @@ export default class About extends React.Component {
                 pipelines, App Center, Node.js, TypeScript and React Native.
               </p>
               <p className="para-style">
-                Currently, working as a Software Engineer Co-op at{' '}
+                Most recently, I held the position of Software Engineer Coop at{' '}
                 <a
                   className="anchor-style"
                   href="https://www.usa.philips.com/healthcare/"
@@ -60,7 +60,7 @@ export default class About extends React.Component {
                 >
                   Philips
                 </a>
-                .
+                . I worked to advance the iX architecture.
               </p>
             </div>
             <div>
