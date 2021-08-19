@@ -7,6 +7,7 @@ import Experience from './Experience'
 import Work from './Work'
 import Contact from './Contact'
 import Footer from './Footer'
+import Recognition from './Recognition'
 import Fade from 'react-reveal/Fade'
 // import Slide from 'react-reveal/Slide';
 // import Reveal from 'react-reveal/Reveal';
@@ -32,6 +33,10 @@ export default class MainPage extends React.Component {
 
           <Fade bottom>
             <Work />
+          </Fade>
+
+          <Fade bottom>
+            <Recognition />
           </Fade>
 
           <Fade bottom>

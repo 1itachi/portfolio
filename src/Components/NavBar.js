@@ -57,7 +57,10 @@ export default class NavBar extends React.Component {
                 <Nav.Item>Experience</Nav.Item>
               </Nav.Link>
               <Nav.Link href="#work-id" className="mr-4 text-style">
-                <Nav.Item>Work</Nav.Item>
+                <Nav.Item>Projects</Nav.Item>
+              </Nav.Link>
+              <Nav.Link href="#rec-id" className="mr-4 text-style">
+                <Nav.Item>Recognition</Nav.Item>
               </Nav.Link>
               <Nav.Link href="#contact-id" className="mr-4 text-style">
                 <Nav.Item>Contact</Nav.Item>

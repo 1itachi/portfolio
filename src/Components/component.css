@@ -156,8 +156,21 @@ a:hover {
      height: 20rem;
      width:20rem;
      padding: 10px;
+     align-items: center;
      /* padding-left: 100px; */
      /* align-items: center; */
+}
+
+.card-image-mobile{
+    height: 20rem;
+    width:10rem;
+    padding: 10px;
+    /* padding-left: 100px; */
+    /* align-items: center; */
+}
+
+.card-image-mobile:hover{
+    transform: scale(1.1);
 }
 
 .card-image:hover{

@@ -2,8 +2,7 @@ import React from 'react'
 import './component.css'
 import baboon from '../mosaicBaboon.jpg'
 import bookbar from '../bookbar.png'
-import developer from '../developer.png'
-import solution from '../solution.png'
+import crackitup from '../crackitup.png'
 import plagewatch from '../plagewatch.png'
 
 export default class Work extends React.Component {
@@ -11,7 +10,7 @@ export default class Work extends React.Component {
     return (
       <div className="margin" id="work-id">
         <div className="col-sm-6">
-          <h3 className="headings head ml-4">3. My Work and Certifications</h3>
+          <h3 className="headings head ml-4">3. Personal Projects</h3>
           <hr className="horizontal" />
         </div>
 
@@ -77,17 +76,11 @@ export default class Work extends React.Component {
           </div>
 
           <div class="card col-sm-6 card-background">
-            <a
-              href="https://frontend-bookbar.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
               <img
                 class="card-img-top card-image-book"
                 src={bookbar}
                 alt="Card cap"
               />
-            </a>
             <div class="card-body">
               <h5 class="intro-start card-title ">
                 BookBar Web App{' '}
@@ -107,45 +100,37 @@ export default class Work extends React.Component {
                 seller can sell multiple books, and customize the price and
                 quantity of the books he wants to sell.
               </p>
-              <p></p>
+              <p class="para-style card-text mb-4"><span>&#9888;</span> Website no longer maintained!</p>
             </div>
           </div>
-
           <div class="card col-sm-6 card-background">
             <a
-              href="https://www.youracclaim.com/badges/a4f99f6f-9e01-43ea-90b7-a783a3be1b1f/linked_in_profile"
+              href="https://youtu.be/QsJF6x6PHSo"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                class="card-img-top card-image-book"
-                src={developer}
-                alt="Card cap"
-              />
-            </a>
-            <div class="card-body">
-              <h5 class="intro-start card-title ">AWS Certified Developer</h5>
-              <p class="para-style card-text mb-4"> Validity: 2020-2023</p>
-            </div>
-          </div>
-
-          <div class="card col-sm-6 card-background">
-            <a
-              href="https://www.youracclaim.com/badges/54574a16-bc9b-41e8-8e26-93b50ca3cd59?source=linked_in_profile"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                class="card-img-top card-image-book"
-                src={solution}
+                class="card-image-mobile"
+                src={crackitup}
                 alt="Card cap"
               />
             </a>
             <div class="card-body">
               <h5 class="intro-start card-title ">
-                AWS Certified Solution Architect
+                Crack-it-up{' '}
+                <a
+                  class="github"
+                  href="https://github.ccs.neu.edu/deepakkumar/crack-it-up"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
               </h5>
-              <p class="para-style card-text mb-4"> Validity: 2020-2023</p>
+              <p class="para-style card-text mb-4">
+              Crack it up! is an Android app that enables users to acquire the skills needed to master and crack the technical interview. Users can learn important concepts, practice personalized quizzes, audio record and analyze answers to behavioral questions.
+              </p>
+              <p></p>
             </div>
           </div>
         </div>

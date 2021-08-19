@@ -123,7 +123,7 @@ export default class Experience extends React.Component {
 
           <ul>
           
-        <li> Contributed to Philips open-source Roslyn Analyzers to give developers real-time feedback on the code. </li>
+        <li>Contributed to Philips open-source software by developing Roslyn analyzers to provide developers with feedback on the code for style, quality, maintainability, and other issues. </li>
         <li>
          Built a functionality to collect 5 code metrics from across the repositories for each check-in, it helped to identify repositories with the lowest scores.
         </li>

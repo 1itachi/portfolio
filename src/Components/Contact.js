@@ -5,7 +5,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div className="margin contact " id="contact-id">
-        <h1 className="intro-start head">4. What's Next?</h1>
+        <h1 className="intro-start head">5. What's Next?</h1>
         <h2 className="intro-name">Get In Touch</h2>
 
         <p className="para-style mb-4">
