@@ -120,7 +120,7 @@ export default class Work extends React.Component {
                 Crack-it-up{' '}
                 <a
                   class="github"
-                  href="https://github.ccs.neu.edu/deepakkumar/crack-it-up"
+                  href="https://github.com/1itachi/crack-it-up"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
