@@ -6,8 +6,12 @@ export default class Contact extends React.Component {
     return (
       <div className="footer-margin contact mb-4">
         <p className="footer">
-          Built using React.Js by Deepak Kumar. Design insipired by Brittany
-          Chiang.
+          Built using React.Js by Deepak Kumar. Design insipired by   <a
+          class="github "
+          href="https://brittanychiang.com/"
+          target="_blank"
+          rel>Brittany
+          Chiang</a>
         </p>
         <a
           class="github "
