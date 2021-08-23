@@ -6,6 +6,18 @@
   <img src="https://contrib.rocks/image?repo=1itachi/portfolio" />
 </a>
 
-
+# Credits
+Design insipired by   <a
+          class="github "
+          href="https://brittanychiang.com/"
+          target="_blank"
+          rel>Brittany
+          Chiang</a>
+        <a
+          class="github "
+          href="https://github.com/1itachi/portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
 
 ### Run locally using "npm start".
