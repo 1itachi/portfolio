@@ -10,7 +10,7 @@ export default class Contact extends React.Component {
 
         <p className="para-style mb-4">
           {' '}
-          I am looking for fulltime starting Jan 2022. Looking forward to
+          Looking forward to
           connecting with you! <p>&#128512;</p>
         </p>
 

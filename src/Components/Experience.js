@@ -119,7 +119,7 @@ export default class Experience extends React.Component {
             <span className="para-style ml-2"> Software Engineer Co-op </span>
             <span>@Philips</span>
           </h1>
-          <p className="para-style ml-2">January, 2021 - Present</p>
+          <p className="para-style ml-2">January, 2021 - August, 2021</p>
 
           <ul>
           
